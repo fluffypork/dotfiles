@@ -1,0 +1,19 @@
+<!--
+WARNING: THIS IS AN AUTO-GENERATED FILE. CHANGES TO IT ARE LIKELY TO BE
+OVERWRITTEN AND LOST. Changes to this xml configuration should be made using:
+  virsh pool-edit Windows_Server2008_r2_MSDN
+or other application using the libvirt API.
+-->
+
+<pool type='dir'>
+  <name>Windows_Server2008_r2_MSDN</name>
+  <uuid>fb8e1176-7f2d-4094-b1df-8dad496345ae</uuid>
+  <capacity unit='bytes'>0</capacity>
+  <allocation unit='bytes'>0</allocation>
+  <available unit='bytes'>0</available>
+  <source>
+  </source>
+  <target>
+    <path>/home/yggdrasil/Desktop/Windows Server2008 r2 MSDN</path>
+  </target>
+</pool>

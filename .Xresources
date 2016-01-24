@@ -1,0 +1,90 @@
+URxvt*depth: 24
+URxvt*geometry: 100x25
+URxvt.borderColor: #111113
+URxvt.internalBorder: 0
+!URxvt.cursorUnderline: true
+!URxvt.cursorBlink: true
+
+!URxvt*.transparent: true
+!URxvt*.shading: 15
+
+! -- scrollbar
+URxvt.scrollstyle: plain
+URxvt.scrollBar: false
+URxvt*scrollTtyOuput: false
+URxvt*scrollWidthBuffer: true
+URxvt*scrollTtyKeypress: true
+
+! -- login shell
+URxvt*loginShell: true
+
+! -- font
+URxvt.font: xft:Meslo LG M for Powerline:size=11
+URxvt.boldFont:
+URxvt*letterSpace: -1
+!URxvt*lineSpace: 2
+
+! -- perl
+URxvt.perl-ext-common: default,matcher,tabbed,clipboard,font-size,keyboard-select,url-select,vtwheel
+URxvt.matcher.button: 1
+!URxvt.colorUL: #9472ec
+URxvt.iso14755: False
+URxvt.keysim.Shift-Control-C: perl:clipboard:copy
+URxvt.keysim.Shift-Control-V: perl:clipboard:paste
+
+URxvt.keysym.Shift-Up: command:\033]720;1\007
+URxvt.keysym.Shift-Down: command:\033]721;1\007
+
+! -- tabs
+!URxvt.tabbed.tabbar-fg: 8
+!URxvt.tabbed.tabbar-bg: 0
+!URxvt.tabbed.tab-fg: 15
+!URxvt.tabbed.tab-bg: 0
+
+! special
+*.foreground:   #c5c8c6
+*.background:   #1d1f21
+*.cursorColor:  #c5c8c6
+
+! black
+*.color0:       #282a2e
+*.color8:       #373b41
+
+! red
+*.color1:       #a54242
+*.color9:       #cc6666
+
+! green
+*.color2:       #8c9440
+*.color10:      #b5bd68
+
+! yellow
+*.color3:       #de935f
+*.color11:      #f0c674
+
+! blue
+*.color4:       #5f819d
+*.color12:      #81a2be
+
+! magenta
+*.color5:       #85678f
+*.color13:      #b294bb
+
+! cyan
+*.color6:       #5e8d87
+*.color14:      #8abeb7
+
+! white
+*.color7:       #707880
+*.color15:      #c5c8c6
+
+URxvt*color12: rgb:5c/5c/ff
+
+! ------------------------------------------------------------------------------
+! ROFI Color theme
+! ------------------------------------------------------------------------------
+rofi.color-enabled: true
+rofi.color-window: #141213, #096892, #64c4f0
+rofi.color-normal: #333333, #ffffff, #333333, #0064aa, #ffffff
+rofi.color-active: #fdf6e3, #268bd2, #eee8d5, #268bd2, #fdf6e3
+rofi.color-urgent: #fdf6e3, #dc322f, #eee8d5, #dc322f, #fdf6e3
