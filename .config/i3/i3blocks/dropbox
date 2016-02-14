@@ -1,0 +1,2 @@
+#!/bin/bash
+exec ~/.dropbox-dist/./dropbox.py status | sed -n 1p

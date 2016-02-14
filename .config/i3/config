@@ -15,7 +15,7 @@ set $mod Mod4
 
 # Font for window titles. Will also be used by the bar unless a different font
 # is used in the bar {} block below.
-font pango:terminus, awesome 12
+font pango:Meslo LG M, awesome 12
 
 # This font is widely installed, provides lots of unicode glyphs, right-to-left
 # text rendering and scalability on retina/hidpi displays (thanks to pango).
@@ -32,14 +32,14 @@ font pango:terminus, awesome 12
 exec ~/.config/i3/start.sh
 
 # fix graphics glitch
-new_window none
+new_window pixel 0
 
 # disable borders
 for_window [class="^.*"] border pixel 2
 
 #gaps
 gaps inner  15
-gaps outer  10
+gaps outer  5
 smart_borders on
 smart_gaps on
 
@@ -54,7 +54,7 @@ for_window [class="Virt-manager"] floating enable, move position mouse
 assign [class="Gimp"]$ws5
 assign [class="qemu-system-x86_x64"]$ws3
 assign [class="Virt-manager"]$ws3
-assign [class="Atom"]$ws2
+assign [class="Sublime_text"]$ws2
 assign [class="Steam"]$ws4
 
 # Back and Forth
@@ -140,7 +140,7 @@ set $ws2  "&#xf085;"
 #vm
 set $ws3  "&#xf1b3;"
 #steam
-set $ws4  "&#xf1b6;"
+set $ws4  "&#xf1b6;" 
 #gimp
 set $ws5  "&#xf1fc;"
 

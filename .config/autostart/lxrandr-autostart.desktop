@@ -1,0 +1,6 @@
+[Desktop Entry]
+Type=Application
+Name=автозапуск LXRandR
+Comment=Запуск xrandr c настройками сделанными в LXRandR
+Exec=sh -c 'xrandr --output HDMI-0 --mode 1920x1080 --rate 60.00'
+OnlyShowIn=LXDE

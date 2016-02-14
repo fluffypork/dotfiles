@@ -4,4 +4,5 @@ xrdb -merge .Xresources &
 xrandr --output DVI-I-0 --brightness 0.9 &
 iceweasel &
 compton &
+powerline-daemon -q
 dropbox start

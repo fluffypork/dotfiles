@@ -1,0 +1,130 @@
+<?xml version="1.0"?>
+<openbox_theme version="1" xmlns="http://openbox.org/themerc">
+  <dimensions>
+    <handle>3</handle>
+    <padding x="2" y="2"/>
+  </dimensions>
+  <window>
+    <border>
+      <width>3</width>
+      <primary r="0" g="0" b="0" a="255"/>
+    </border>
+    <clientpadding x="0" y="0"/>
+    <justify>right</justify>
+    <active>
+      <clientpadding r="144" g="148" b="152" a="255"/>
+      <label>
+        <text>
+          <primary r="0" g="0" b="0" a="255"/>
+        </text>
+        <style>parentrelative</style>
+      </label>
+      <buttons>
+        <unpressed>
+          <image r="0" g="0" b="0" a="255"/>
+          <style>parentrelative</style>
+        </unpressed>
+        <pressed>
+          <image r="102" g="102" b="102" a="255"/>
+          <style>parentrelative</style>
+        </pressed>
+        <disabled>
+          <image r="35" g="67" b="114" a="255"/>
+          <style>flat</style>
+          <primary r="32" g="88" b="123" a="255"/>
+        </disabled>
+        <toggled-unpressed>
+          <image r="255" g="255" b="255" a="255"/>
+          <style>flat vertical gradient</style>
+          <primary r="198" g="213" b="192" a="255"/>
+          <secondary r="139" g="150" b="135" a="255"/>
+        </toggled-unpressed>
+      </buttons>
+      <titlebar>
+        <style>focus: flat</style>
+        <primary r="153" g="204" b="51" a="255"/>
+      </titlebar>
+      <handle>
+        <style>flat</style>
+        <primary r="153" g="204" b="51" a="255"/>
+      </handle>
+      <grip>
+        <style>flat</style>
+        <primary r="102" g="102" b="0" a="255"/>
+      </grip>
+    </active>
+    <inactive>
+      <clientpadding r="64" g="72" b="80" a="255"/>
+      <label>
+        <text>
+          <primary r="102" g="102" b="0" a="255"/>
+        </text>
+        <style>parentrelative</style>
+      </label>
+      <buttons>
+        <unpressed>
+          <image r="102" g="102" b="0" a="255"/>
+          <style>parentrelative</style>
+        </unpressed>
+        <disabled>
+          <image r="32" g="88" b="123" a="255"/>
+          <style>flat</style>
+          <primary r="32" g="88" b="123" a="255"/>
+        </disabled>
+        <toggled-unpressed>
+          <image r="150" g="150" b="150" a="255"/>
+          <style>flat vertical gradient</style>
+          <primary r="214" g="214" b="214" a="255"/>
+          <secondary r="154" g="154" b="154" a="255"/>
+        </toggled-unpressed>
+        <pressed>
+          <style>parentrelative</style>
+          <secondary r="255" g="255" b="255" a="255"/>
+        </pressed>
+      </buttons>
+      <titlebar>
+        <style>flat</style>
+        <primary r="185" g="213" b="110" a="255"/>
+      </titlebar>
+      <handle>
+        <style>flat</style>
+        <primary r="185" g="213" b="110" a="255"/>
+      </handle>
+      <grip>
+        <style>flat</style>
+        <primary r="102" g="102" b="0" a="255"/>
+      </grip>
+    </inactive>
+  </window>
+  <menu>
+    <border>
+      <width>3</width>
+      <primary r="0" g="0" b="0" a="255"/>
+    </border>
+    <justify>left</justify>
+    <title>
+      <text>
+        <primary r="0" g="0" b="0" a="255"/>
+      </text>
+      <style>flat</style>
+      <primary r="153" g="204" b="51" a="255"/>
+    </title>
+    <inactive>
+      <primary r="0" g="0" b="0" a="255"/>
+    </inactive>
+    <disabled>
+      <primary r="215" g="215" b="215" a="255"/>
+    </disabled>
+    <active>
+      <text>
+        <primary r="185" g="213" b="110" a="255"/>
+      </text>
+      <style>flat solid</style>
+      <primary r="0" g="0" b="0" a="255"/>
+    </active>
+    <entries>
+      <style>flat solid</style>
+      <primary r="185" g="213" b="110" a="255"/>
+    </entries>
+  </menu>
+</openbox_theme>

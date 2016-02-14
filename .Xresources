@@ -8,12 +8,17 @@ URxvt.internalBorder: 0
 !URxvt*.transparent: true
 !URxvt*.shading: 15
 
+! scroll in relation to buffer (with mouse scroll or Shift+Page Up)
+URxvt*scrollWithBuffer: true
+
 ! -- scrollbar
 URxvt.scrollstyle: plain
 URxvt.scrollBar: false
 URxvt*scrollTtyOuput: false
 URxvt*scrollWidthBuffer: true
 URxvt*scrollTtyKeypress: true
+
+URxvt*saveLines: 500
 
 ! -- login shell
 URxvt*loginShell: true
